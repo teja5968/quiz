@@ -1,0 +1,66 @@
+/* Main container for the quiz app */
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Title and score section styling */
+  h1, .score-section {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .score-section {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  /* Question section styling */
+  .question-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the answer options container */
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  /* Styling for each answer option button */
+  .option-button {
+    padding: 12px;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+  }
+  
+  .option-button:active {
+    background-color: #d0d0d0;
+  }
+  
